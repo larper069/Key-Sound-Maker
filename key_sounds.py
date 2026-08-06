@@ -39,7 +39,7 @@ def load_sound(filename, fallback_sound=None):
 # Load base default sound first
 default_sound = load_sound("click.wav")
 if not default_sound:
-    print("ERROR: click.wav is missing! Please place click.wav in ~/Documents/key/")
+    print("ERROR: click.wav is missing! Please place click.wav in key folder")
     sys.exit(1)
 
 # Load specialized sounds (or fallback to click.wav if missing)
